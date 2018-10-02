@@ -1,10 +1,59 @@
+
+html, body {
+	font-family: 'Tajawal', sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+hr {
+	margin-bottom: 0;
+	border: 1px solid lightgrey;
+}
+
+#my-pic {
+	border-radius: 50%;
+	max-height: 250px;
+	align-self: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#flex-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 220px;
+	height: 40vh;
+}
+
+.projects {
+	height: 60vh;
+	background-color: #fafafa;
+	justify-content: space-around;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.project-title {
+	text-align: center;
+}
+
 .thumbnail {
 	max-width: 300px;
 	width: 100%;
 	height: auto;
 }
 
-#my-pic {
-	border-radius: 50%;
-}
+
+
+
+
+
+
 
