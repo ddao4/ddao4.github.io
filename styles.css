@@ -12,6 +12,11 @@ hr {
 	border: 1px solid lightgrey;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 #my-pic {
 	border-radius: 50%;
 	max-height: 250px;
