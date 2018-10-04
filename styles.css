@@ -92,7 +92,7 @@ i {
   opacity: 1;
 }
 
-@media (max-width: 1600px) {
+@media (min-width: 1600px) {
 	.projects {
 		padding-left: 400px;
 		padding-right: 400px;
