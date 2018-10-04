@@ -18,7 +18,7 @@ a {
 }
 
 i {
-	
+	font-size: 24px;
 }
 
 #my-pic {
@@ -42,7 +42,7 @@ i {
 }
 
 #flex-buttons {
-	
+	text-align: center;
 }
 
 .projects {
