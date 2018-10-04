@@ -34,10 +34,6 @@ i {
 	justify-content: center;
 }
 
-.upper {
-	display: flex;
-	align-items: center;
-}
 
 #flex-title {
 	display: flex;
@@ -106,6 +102,24 @@ i {
 @media (max-width: 800px) {
 	.thumbnail {
 		width: 400px;
+	}
+
+	.projects {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.flex-container {
+		text-align: center;
+	}
+
+	#my-pic {
+		margin-top: -50px;
+		margin-bottom: 25px;
+	}
+
+	i {
+		font-size: 32px;
 	}
 }
 
