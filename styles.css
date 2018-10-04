@@ -1,6 +1,8 @@
 
 html, body {
 	font-family: 'Tajawal', sans-serif;
+	height: 100%;
+	width: 100%;
 }
 
 h1 {
@@ -19,6 +21,10 @@ a {
 
 i {
 	font-size: 24px;
+}
+
+.bg {
+
 }
 
 
@@ -49,11 +55,11 @@ i {
 }
 
 .projects {
-	height: 60vh;
 	background-color: #fafafa;
 	justify-content: space-around;
 	padding-left: 250px;
 	padding-right: 250px;
+	height: 100%;
 }
 
 .project-title {
@@ -96,6 +102,12 @@ i {
 	.projects {
 		padding-left: 400px;
 		padding-right: 400px;
+	}
+}
+
+@media (max-width: 800px) {
+	.thumbnail {
+		width: 400px;
 	}
 }
 
