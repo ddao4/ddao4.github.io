@@ -21,6 +21,7 @@ i {
 	font-size: 24px;
 }
 
+
 #my-pic {
 	border-radius: 50%;
 	max-height: 250px;
@@ -31,6 +32,7 @@ i {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+
 }
 
 #flex-title {
@@ -39,6 +41,7 @@ i {
 	justify-content: center;
 	width: 225px;
 	height: 40vh;
+
 }
 
 #flex-buttons {
@@ -89,6 +92,12 @@ i {
   opacity: 1;
 }
 
+@media (max-width: 1600px) {
+	.projects {
+		padding-left: 400px;
+		padding-right: 400px;
+	}
+}
 
 
 
