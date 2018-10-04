@@ -53,8 +53,33 @@ a {
 	max-width: 300px;
 	width: 100%;
 	height: auto;
+	transition: .5s ease;
+  	backface-visibility: hidden;
+  	opacity: 1;
 }
 
+.thumbnail-hover {
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+  position: absolute;
+  top: 75px;
+  left: 110px;
+  font-size: 32px;
+
+}
+
+.container {
+	position: relative;
+}
+
+.container:hover .thumbnail {
+  opacity: 0.3;
+}
+
+.container:hover .thumbnail-hover {
+  opacity: 1;
+}
 
 
 
